@@ -20,42 +20,109 @@ class ButtonGrid extends StatelessWidget {
     if (cal.mode == CalculatorMode.basic) {
       cot = 4;
       nut = [
-        'C','CE','%','÷',
-        '7','8','9','×',
-        '4','5','6','-',
-        '1','2','3','+',
-        '±','0','.','='
+        'C',
+        'CE',
+        '%',
+        '÷',
+        '7',
+        '8',
+        '9',
+        '×',
+        '4',
+        '5',
+        '6',
+        '-',
+        '1',
+        '2',
+        '3',
+        '+',
+        '±',
+        '0',
+        '.',
+        '='
       ];
-    }
-
-    else if (cal.mode == CalculatorMode.scientific) {
+    } else if (cal.mode == CalculatorMode.scientific) {
       cot = 6;
       nut = [
-        '2nd','sin','cos','tan','Ln','log',
-        'x²','√','x^y','(',')','÷',
-        'MC','7','8','9','C','×',
-        'MR','4','5','6','CE','-',
-        'M+','1','2','3','%','+',
-        'M-','±','0','.','Π','='
+        '2nd',
+        'sin',
+        'cos',
+        'tan',
+        'Ln',
+        'log',
+        'x²',
+        '√',
+        'x^y',
+        '(',
+        ')',
+        '÷',
+        'MC',
+        '7',
+        '8',
+        '9',
+        'C',
+        '×',
+        'MR',
+        '4',
+        '5',
+        '6',
+        'CE',
+        '-',
+        'M+',
+        '1',
+        '2',
+        '3',
+        '%',
+        '+',
+        'M-',
+        '±',
+        '0',
+        '.',
+        'Π',
+        '='
       ];
-    }
-
-    else {
+    } else {
       cot = 4;
+
       nut = [
-        'BIN','OCT','DEC','HEX',
-        'AND','OR','XOR','NOT',
-        '<<','>>','C','CE',
-        '7','8','9','+',
-        '4','5','6','-',
-        '1','2','3','='
+        'A',
+        'B',
+        'C',
+        'D',
+        'E',
+        'F',
+        '(',
+        ')',
+        'AND',
+        'OR',
+        'XOR',
+        'NOT',
+        '<<',
+        '>>',
+        '×',
+        '÷',
+        '7',
+        '8',
+        '9',
+        '+',
+        '4',
+        '5',
+        '6',
+        '-',
+        '1',
+        '2',
+        '3',
+        '=',
+        '0',
+        'C',
+        'CE',
+        'HEX'
       ];
     }
 
     return GridView.builder(
       itemCount: nut.length,
-      gridDelegate:
-          SliverGridDelegateWithFixedCrossAxisCount(
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: cot,
       ),
       itemBuilder: (context, index) {
