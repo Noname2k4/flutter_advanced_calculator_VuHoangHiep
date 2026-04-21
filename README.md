@@ -32,43 +32,42 @@
 
 ### Test
 # Advanced Calculator - Test Results
-
 ## 1. Complex expressions  
 (5 + 3) × 2 - 4 ÷ 2 = 14
 
-![Complex Expressions](pictures/1.png)
+<img src="pictures/1.jpg" width="300"/>
 
 ---
 
 ## 2. Scientific calculations  
 sin(45°) + cos(45°) ≈ 1.414
 
-![Scientific Calculations](pictures/2.png)
+<img src="pictures/2.jpg" width="300"/>
 
 ---
 
 ## 3. Memory operations  
 5 M+ 3 M+ MR = 8
 
-![Memory Operations](pictures/3.png)
+<img src="pictures/3.jpg" width="300"/>
 
 ---
 
 ## 4. Chain calculations  
 5 + 3 = + 2 = + 1 = 11
 
-![Chain Calculations](pictures/4.png)
+<img src="pictures/4.jpg" width="300"/>
 
 ---
 
 ## 5. Parentheses nesting  
 ((2 + 3) × (4 - 1)) ÷ 5 = 3
 
-![Parentheses Nesting](pictures/5.png)
+<img src="pictures/5.jpg" width="300"/>
 
 ---
 
 ## 6. Mixed scientific  
 2 × π × √9 ≈ 18.85
 
-![Mixed Scientific](pictures/6.png)
+<img src="pictures/6.jpg" width="300"/>
